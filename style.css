@@ -1,0 +1,51 @@
+.stuff{
+    background-color:grey;
+    padding: 40px;
+    margin:100px;
+}
+.stuff>input{
+    border: black 3px solid;
+    border
+}
+div input{
+    border: black 3px solid;
+}
+.a{
+    color:red;
+}
+.b{
+    color:orangered;
+}
+.c{
+    color:orange;
+}
+.d{
+    color:red;
+}
+.e{
+    color:yellow;
+}
+.f{
+    color:yellowgreen;
+}
+.g{
+    color:green;
+}
+.h{
+    color:green;
+}
+.i{
+    color:blue;
+}
+.j{
+    color:indigo;
+}
+.k{
+    color:blueviolet;
+}
+.l{
+    color:violet;
+}
+.m{
+    color:purple;
+}

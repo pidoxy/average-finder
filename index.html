@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AVERAGE FINDER</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="container stuff">
+        <h3><span class="a">A</span><span class="b">V</span><span class="c">E</span><span class="d">R</span><span
+                class="e">A</span><span class="f">G</span><span class="g">E</span><span class="h">
+                F</span><span class="i">I</span><span class="j">N</span><span class="k">D</span><span
+                class="l">E</span><span class="m">R</span></h3>
+        <input type="number" name="" id="input1" onkeyup="calcAvg()" placeholder="your number">
+        <input type="number" name="" id="input2" onkeyup="calcAvg()" placeholder="your number">
+        <input type="number" name="" id="input3" onkeyup="calcAvg()" placeholder="your number">
+        <input type="number" name="" id="input4" onkeyup="calcAvg()" placeholder="your number">
+        <input type="number" name="" id="input5" onkeyup="calcAvg()" placeholder="your number">
+        <p>Type in your numbers in the boxes above and get your average!</p>
+    <div>
+         
+        <h3>AVERAGE ANSWER</h3>
+        <input type="" name="average" id="result" placeholder="average">
+    </div>
+        
+    </section>
+
+
+
+
+    <script>
+        function calcAvg(){
+        var inp1= parseFloat(document.getElementById('input1').value);
+        var inp2= parseFloat(document.getElementById('input2').value);
+        var inp3= parseFloat(document.getElementById('input3').value);
+        var inp4= parseFloat(document.getElementById('input4').value);
+        var inp5= parseFloat(document.getElementById('input5').value);
+               
+        var sum = inp1 + inp2 + inp3 + inp4 + inp5;
+        var avg = sum / 5;
+        document.getElementById('result').value = avg;
+        }
+
+
+    </script>
+</body>
+
+</html>
